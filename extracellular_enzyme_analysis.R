@@ -100,7 +100,7 @@ ggplot(data=subset(fluorescenceActivity), aes(x=activity)) +
   geom_histogram() +
   facet_wrap(~enzyme)
 
-ggplot(data=barGraphStats(data=subset(fluorescenceActivity, activity<658&activity>0), variable="activity", byFactorNames=c("date","enzyme")), aes(x=date, y=mean)) +
+ggplot(data=barGraphStats(data=subset(fluorescenceActivity, activity<5000&activity>0), variable="activity", byFactorNames=c("date","enzyme")), aes(x=date, y=mean)) +
   geom_point() +
   geom_errorbar(aes(ymin=mean-se, ymax=mean+se)) +
   scale_x_date(date_breaks = "1 week", date_labels = "%W") +
