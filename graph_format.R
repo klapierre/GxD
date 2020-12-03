@@ -17,7 +17,7 @@ theme_update(axis.title.x=element_text(size=20, vjust=-0.35), axis.text.x=elemen
 
 #designating colors for drought and grazing treatments
 droughtColor <- c('#feedde', '#fdbe85', '#fd8d3c', '#e6550d', '#a63603') #from 0 to 99 ##change this to be blue at 0 to red at 99
-grazingColor <- c('#C9FAFF', '#469BEC', '#6D882B') #from HHMMM to MMMMM to MLLMM
+grazingColor <- c('#ABDEFF', '#469BEC', '#6D882B') #from HHMMM to MMMMM to MLLMM
 
 
 ##come up with symbols for the treatments too (symbols for grazing, colors for drought?)
